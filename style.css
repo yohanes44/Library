@@ -1,0 +1,73 @@
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 15% 60% 10%;
+    text-align: center;
+}
+input{
+    margin: 5px;
+}
+
+.header{
+
+    text-align: left;
+    margin: 7px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.addBook,.body{
+    background-color:aliceblue;
+    
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.bookInject{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.divBook{
+    /* box-shadow: 5px 10px silver; */
+    /* border: 2px solid silver; */
+    background-color: white;
+    height: fit-content;
+    border-radius: 10%;
+    box-shadow: 5px 7px rgba(255, 255, 255, 0);
+    
+}
+
+
+
+.formInject{
+   
+}
+
+.btnAdd{
+    width:66px;
+    border-radius: 6px;
+    padding: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background:lime;
+}
+
+button{
+    border: 0px;
+    align-self: center;
+    
+}
